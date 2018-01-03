@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="es">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Menu Fullscreen</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- favicon.ico -->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+	<!-- Agregamos nuestros CSS aquí -->
+	<link rel="stylesheet" href="css/sidenav.css">
+	<link rel="stylesheet" href="../app/assets/css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+
+	</head>
+	<body>
+		<!-- Agregamos nuestros contenidos aquí -->
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Clients</a>
+			<a href="#">Contact</a>
+		</div>
+		<header class="red">
+			<div id="main">
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+			</div>
+		</header>
+
+		<main id="content">
+			<div class="content">
+				<h2>Sidenav Push Example</h2>
+				<p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+			</div>
+		</main>
+
+		<!-- Agregamos nuestros javascript aquí -->
+		<script type="text/javascript" src="js/sidenav.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,24 @@
+//Versión 1.0.0, Marzo de 2014.
+//Reseteamos todos las propiedades CSS por defecto.
+//@import "partials/reset";
+
+// Importamos hojas de estilos externas con variables y mixins.
+@import "partials/variables";
+@import "partials/mixins";
+
+// Importamos hojas de estilos externas para nuestro sitio u app.
+@import "partials/font";
+@import "partials/header";
+@import "partials/contenidos";
+@import "partials/botones";
+@import "partials/footer";
+@import "partials/tablas";
+
+// Importamos componentes.
+//@import "partials/dropdown";
+//@import "partials/glyphicons";
+//@import "partials/form";
+//@import "partials/color-font
+
+// Importamos componentes con JS.
+//@import "partials/modal";
